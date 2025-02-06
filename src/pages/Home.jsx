@@ -41,7 +41,7 @@ const Home = () => {
         {data?.data.map((book) => (
           <div
             key={book._id}
-            className="relative bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden cursor-pointer hover:scale-105 w-64 h-64"
+            className="relative bg-white rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden cursor-pointer hover:scale-105 w-full sm:w-64 h-64"
             onClick={() => navigate(`/book/${book._id}`)}
           >
             <div

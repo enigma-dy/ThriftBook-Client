@@ -38,7 +38,6 @@ const MobileNav = () => {
         onClick={() => setIsMenuOpen((prev) => !prev)} // Toggle menu visibility
       >
         <IoMenuSharp className="text-2xl cursor-pointer" />
-        <h1 className="text-xl font-semibold">Navigation</h1>
       </div>
 
       {/* Menu Content */}
